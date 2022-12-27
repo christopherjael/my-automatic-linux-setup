@@ -18,3 +18,5 @@
 # exa
   alias ll="exa -l --icons --group-directories-first  --time-style long-iso"
   alias la="exa -a -l --icons --group-directories-first  --time-style long-iso"
+# batcat
+  alias cat="batcat"
