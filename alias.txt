@@ -1,0 +1,20 @@
+# Example aliases
+  alias zshconfig="nano ~/.zshrc"
+  alias ohmyzsh="nano ~/.oh-my-zsh"
+# git alias
+  alias giti="git init"
+  alias gitic="git add . && git commit -m 'Initial commit'"
+# npm alias
+  alias npmi="npm init -y"
+  alias npms="npm start"
+  alias npmrd="npm run dev"
+  alias npmI="npm install"
+  alias npmD="npm install --save-dev"
+  alias npmG="npm install -g"
+# apt alias
+  alias aptup="sudo apt update"
+  alias aptupg="sudo apt upgrade"
+  alias aptall="sudo apt update && sudo apt upgrade"
+# exa
+  alias ll="exa -l --icons --group-directories-first  --time-style long-iso"
+  alias la="exa -a -l --icons --group-directories-first  --time-style long-iso"

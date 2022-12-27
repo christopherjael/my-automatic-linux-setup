@@ -1,0 +1,15 @@
+# LINUX
+
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+        name = Christopher Montero
+        email = cristhofermontero1@gmail.com
+[alias]
+        lg = "log --oneline --graph --decorate"
+	sts = "status --short"
+[core]
+        autocrlf = false
+        eol = lf
+[init]
+        defaultBranch = "main"
