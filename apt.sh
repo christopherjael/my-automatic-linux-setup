@@ -4,12 +4,15 @@
 # Github profile: christopherjael
 # Date: 27/12/2022
 
-# install updates
+# Update apt
 sudo apt update -y
 sudo apt upgrade -y
 
-# Install basic programs
-sudo apt install wget curl exa neovim htop neofetch bat git -y
+# [bpytop]
+#sudo apt install -y bpytop
+
+# [Java JDK]
+# sudo apt install default-jdk default-jre default-jdk-doc default-jdk-headless default-jre-headless -y
 
 # [Vagrant]
 sudo apt install vagrant -y

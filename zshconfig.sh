@@ -10,9 +10,7 @@ sudo apt install -y zsh
 
 # Install oh-my-zsh
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-/usr/bin/zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
 
 # install Meslo fonts 
 
@@ -40,7 +38,7 @@ sudo fc-cache -f -v
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-
+/usr/bin/zsh
 # Install some plugins for zsh
 
 # - zsh-syntax-highlighting
